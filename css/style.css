@@ -1,8 +1,8 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
-
 /*////////// Global Styles //////////*/
+
 
 body {
 	background: #F3EBE9;
@@ -18,3 +18,31 @@ body {
 }
 
 /* Write all remaining styles here */
+
+p, h1, h2 {
+	color: grey;
+}
+#hero img {
+	border: grey 5px solid;
+}
+
+#press img {
+	border: lightgray 5px solid;
+}
+
+#press img:hover {
+	border: grey 5px solid;
+	cursor: pointer; 
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+footer p {
+	text-align: end;
+}
