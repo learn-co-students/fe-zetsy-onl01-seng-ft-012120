@@ -1,7 +1,10 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
-
+@font-face {
+	font-family: 'Baskerville';
+	scr: url(../fonts/Baskerville.ttc);
+}
 /*////////// Global Styles //////////*/
 
 body {
@@ -9,12 +12,24 @@ body {
 	font-size: 100%;
 	font-family: 'Times New Roman', serif; 
 }
-
 .wrapper {
 	width: 960px;
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
 }
+h1 {
+	font-family: 'Baskerville';
+}
+h2 {
 
+}
+p {
+	
+}
 /* Write all remaining styles here */
+
+
+footer {
+	text-align: right;
+}
